@@ -2,5 +2,5 @@ body{
   font-family: 'Rajdhani', sans-serif;
   text-align: justify;
   background-color: aliceblue;
-  -webkit-font-smoothing: antialiased;
+  webkit-font-smoothing: antialiased;
 }
