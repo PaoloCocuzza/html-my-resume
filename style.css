@@ -1,7 +1,7 @@
 body{
   font-family: 'Rajdhani', sans-serif;
-  webkit-font-smoothing: antialiased;
   text-align: justify;
   background-color: aliceblue;
   margin: 0 auto;
+  webkit-font-smoothing: antialiased;
 }
