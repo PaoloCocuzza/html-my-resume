@@ -8,6 +8,25 @@
   <title>Contact</title>
   
   <style>
+    @media (max-width: 600px) {
+      div {
+        width: 500px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        gap: 5px;
+      }
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 80%;
+      gap: 10px;
+    }
     #contact {
       text-align: justify center;
       width: 750px;
@@ -17,20 +36,22 @@
 </head>
 
 <body>
-  <div id="contact">
-    <h1>Contact</h1>
-    Paolo Cocuzza
-    <br>
-    <br>
-    Via V.Giardina, 15
-    <br>
-    97016 Pozzallo (RG)
-    <br>
-    <br>
-    Phone: +39 3801975389
-    <br>
-    E-mail: paolo.cocuzza@gmail.com
-    <br>
-    <a href="http://www.linkedin.com/in/paolo-cocuzza">Linkedin</a>
+  <div id="container">
+    <div id="contact">
+      <h1>Contact</h1>
+      Paolo Cocuzza
+      <br>
+      <br>
+      Via V.Giardina, 15
+      <br>
+      97016 Pozzallo (RG)
+      <br>
+      <br>
+      Phone: +39 3801975389
+      <br>
+      E-mail: paolo.cocuzza@gmail.com
+      <br>
+      <a href="http://www.linkedin.com/in/paolo-cocuzza">Linkedin</a>
+    </div>
   </div>
 </body>
