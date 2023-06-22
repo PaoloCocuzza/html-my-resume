@@ -12,11 +12,17 @@
     <title>Paolo Cocuzza Resume</title>
 
     <style>
-            @media (max-width: 600px) {
+        @media (max-width: 600px) {
                 div {
                     width: 200px;
                 }
             }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+        }
         #paolo {
             text-align: center;
             margin: auto;
@@ -58,220 +64,242 @@
 </head>
 
 <body>
-    <div id="paolo">
-        <h1>Paolo Cocuzza</h1>
-        <img class="profile" src="./assets/images/Profile Image.jpg" width="200" height="200">
+    <div id="container">
+        <div id="paolo">
+            <div>
+                <h1>Paolo Cocuzza</h1>
+                <img class="profile" src="./assets/images/Profile Image.jpg" width="200" height="200">
+            </div>
+        </div>
+        <div id="education">
+            <div>
+                <h2>Education</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>
+                            College: Fondazione scuola di Alto Perfezionamento Musicale
+                            <br>
+                            Qualification: <b>Specialization Diploma as Music Production Technician</b>
+                            <br>
+                            When/where: October 2014 - August 2015/Saluzzo (CN)
+                            <br>
+                            Subjects: Music informatics, composition and arrangement, acoustics, electroacoustics, sound synthesis and sampling, recording and mixing techniques, audio/video and multimedia techniques.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            College: University of Rome "La Sapienza", faculty of Literature, Philosophy, Humanities and Oriental Studies
+                            <br>
+                            Qualification: <b>Master's Degree in Knowledge and Techniques of Digital Entertainment</b>
+                            <br>
+                            When/where: January 2011 - July 2013/Rome
+                            <br>
+                            Subjects: History of theatre, history of cinema, directing institutions, history of music, history of art, anthropology, semiotics of entertainment, digital audiovisual shooting techniques, humanistic informatics, web design, 3D animation.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            College: University of Rome "Tor Vergata", Electronic Engineering department
+                            <br>
+                            Qualification: <b>Certificate of attendance at the seminars organized as part of the master's degree in "Sonic Arts"</b>
+                            <br>
+                            When/where: March 2012 - May 2012/Rome
+                            <br>
+                            Subjects: Introduction to sound synthesis and processing using Max/MSP, music and cinematic image, presentation of DAW Steinberg Cubase, audiovisual performances.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            College: University of Rome "La Sapienza", faculty of Literature, Philosophy, Humanities and Oriental Studies
+                            <br>
+                            Qualification: <b>Bachelor's Degree in Digital Performing Arts and Sciences</b>
+                            <br>
+                            When/where: October 2003 - December 2010/Rome
+                            <br>
+                            Subjects: Theater history, cinema history, directing institutions, italian literature, english literature, anthropology, music history, ethnomusicology, art history, semiotics of entertainment, virtual scenography, humanistic informatics.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            College: Higher State Institute "Umberto I" 
+                            <br>
+                            Qualification: <b>Classical High School Diploma</b>
+                            <br>
+                            When/where: September 1998 - July 2003/Ragusa
+                            <br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="work-experience">
+            <div>
+                <h2>Work Experience</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <p>
+                            Employer: Self employment
+                            <br>
+                            Job: <b>Holiday home manager</b>
+                            <br>
+                            When/where: June 2016 - present/Ragusa
+                            <br>
+                            Tasks: Communication and guests acceptance, management of websites for the publication of the apartments.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: MG Wellness
+                            <br>
+                            Job: <b>Commercial adviser</b>
+                            <br>
+                            When/where: November 2022 - June 2023/Modica (RG)
+                            <br>
+                            Task: Selling of medical facilities and devices on appointment.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: LR Health and Beauty
+                            <br>
+                            Job: <b>Commercialm adviser</b>
+                            <br>
+                            When/where: March 2018 - August 2019/Modica (RG)
+                            <br>
+                            Task: Selling of natural health and body care products.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: Eufonica
+                            <br>
+                            Job: <b>Teacher</b>
+                            <br>
+                            When/where: March 2016 - May 2016/Ragusa
+                            <br>
+                            Task: Sound design teacher (MIDI protocol, sound synthesis and sampling).
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: Sonoria Studio Rec
+                            <br>
+                            Job: <b>Sound engineer/studio assistant</b>
+                            <br>
+                            When/where: April 2015 - September 2015/Scordia (CT)
+                            <br>
+                            Task: Assistant for recording and mixing songs.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: Eufonica
+                            <br>
+                            Job: <b>Tutor</b>
+                            <br>
+                            When/where: February 2015 - March 2015/Ragusa
+                            <br>
+                            Task: Tutor for sound engineer and electronic music production courses.
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: Zion Beach
+                            <br>
+                            Job: <b>Dj</b>
+                            <br>
+                            When/where: 2007 - 2012/Torvaianica (Rm)
+                            <br>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Employer: Scrix Srl
+                            <br>
+                            Job: <b>Sound assistant</b>
+                            <br>
+                            When/where: June 2008/Ostia (Rm)
+                            <br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="skills">
+            <div>
+                <h2>Skills</h2>
+            </div>
+            <div>
+                Mastery of informatics tools and computer usage, in particular: HTML and CSS programming languages,  Virtual Studio Code programming software, Office Suite, Web navigating, software and hardware for audio and partially for graphics. In 2018 I attempted a remote specialization course on cyber security, powered by Istituto Volta, called "Ethical Hacker & Deep Web", though without taking the final exam to obtain the certificate.  I am currently attending the remote specialization course called "The Complete 2023 Web Development Bootcamp", on the Udemy platform; I am currently able to create and manage a "basic" website, using HTML and CSS languages.
+                <br>
+                <br>
+                Good knowledge of the practices and tools used in the stages of music pre-production, production and post-production. More than good knowledge of numerous software and hardware for music production and programming (Cubase, Pro Tools, Ableton Live, Melodyne; N.I. Maschine; D.S. Prophet 12; other). Good knowledge of the principles and techniques of sound synthesis. Good knowledge of the MIDI protocol. Ten-year experience in composing electronic music, original songs and remixes. In 2009 I self-produced an album, dealing autonomously with composition and arrangements, sampling, programming, sound design, voice and instrument recording. I have a good background in music theory and have studied piano privately. As a studio assistant I was able to relate to a large number of professional musicians and to actively participate in the various stages of musical creation, providing logistical/technical support and making my knowledge available.
+                <br>
+                <br>
+                Thanks to the autonomous activity of holiday homes manager, I have developed excellent relationship skills with tourists, dealing with communication (often in english), reception, hospitality. I also dealt with the management of the websites for the publication of the apartments (Air Bnb, Booking, Vrbo).
+                <br>
+                <br>
+                The activity of commercial adviser led me to relate daily with the most diverse types of people. This requires me to take great care of appearance and language, learn to get in tune with customers, know how to present and sell the products and devices handled by the company.
+                <br>
+                <br>
+                Independent experiences of gardening, cultivation and care of plants, annual harvest of olives and carobs.
+            </div>
+        </div>
+        <div id="other">
+            <div>
+                <h2>Other</h2>
+                First language: Italian
+                <br>
+                <br>
+                Other languages: English
+                <br>
+                - Reading skills: excellent
+                <br>
+                - Writing skills: excellent
+                <br>
+                - Oral expression skills: excellent
+                <br>
+                <br>
+                Driver's license: B
+                <br>
+                <br>
+                Other certificates: Certificate class of job security, medium risk.
+            </div>
+        </div>
+        <div id="sections">
+            <hr>
+            <div>
+                <a href="./public/music production.html">Music production</a>
+                <a href="./public/holiday house management.html">Holiday house management</a>
+                <a href="./public/hobbies and interests.html">Hobbies and interests</a>
+                <a href="./public/contact.html">Contact</a>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div id="footer">
+            <div>
+                <footer>
+                    <small>
+                        Copyright © 2023 Paolo Cocuzza. All Rights Reserved.
+                    </small>
+                </footer>
+            </div>
+        </div>
     </div>
-    <p>
-    <div id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <p>
-                College: Fondazione scuola di Alto Perfezionamento Musicale
-                <br>
-                Qualification: <b>Specialization Diploma as Music Production Technician</b>
-                <br>
-                When/where: October 2014 - August 2015/Saluzzo (CN)
-                <br>
-                Subjects: Music informatics, composition and arrangement, acoustics, electroacoustics, sound synthesis and sampling, recording and mixing techniques, audio/video and multimedia techniques.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                College: University of Rome "La Sapienza", faculty of Literature, Philosophy, Humanities and Oriental Studies
-                <br>
-                Qualification: <b>Master's Degree in Knowledge and Techniques of Digital Entertainment</b>
-                <br>
-                When/where: January 2011 - July 2013/Rome
-                <br>
-                Subjects: History of theatre, history of cinema, directing institutions, history of music, history of art, anthropology, semiotics of entertainment, digital audiovisual shooting techniques, humanistic informatics, web design, 3D animation.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                College: University of Rome "Tor Vergata", Electronic Engineering department
-                <br>
-                Qualification: <b>Certificate of attendance at the seminars organized as part of the master's degree in "Sonic Arts"</b>
-                <br>
-                When/where: March 2012 - May 2012/Rome
-                <br>
-                Subjects: Introduction to sound synthesis and processing using Max/MSP, music and cinematic image, presentation of DAW Steinberg Cubase, audiovisual performances.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                College: University of Rome "La Sapienza", faculty of Literature, Philosophy, Humanities and Oriental Studies
-                <br>
-                Qualification: <b>Bachelor's Degree in Digital Performing Arts and Sciences</b>
-                <br>
-                When/where: October 2003 - December 2010/Rome
-                <br>
-                Subjects: Theater history, cinema history, directing institutions, italian literature, english literature, anthropology, music history, ethnomusicology, art history, semiotics of entertainment, virtual scenography, humanistic informatics.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                College: Higher State Institute "Umberto I" 
-                <br>
-                Qualification: <b>Classical High School Diploma</b>
-                <br>
-                When/where: September 1998 - July 2003/Ragusa
-                <br>
-                </p>
-            </li>
-        </ul>
-    </div>
-    <div id="work-experience">
-        <h2>Work Experience</h2>
-        <ul>
-            <li>
-                <p>
-                Employer: Self employment
-                <br>
-                Job: <b>Holiday home manager</b>
-                <br>
-                When/where: June 2016 - present/Ragusa
-                <br>
-                Tasks: Communication and guests acceptance, management of websites for the publication of the apartments.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: MG Wellness
-                <br>
-                Job: <b>Commercial adviser</b>
-                <br>
-                When/where: November 2022 - June 2023/Modica (RG)
-                <br>
-                Task: Selling of medical facilities and devices on appointment.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: LR Health and Beauty
-                <br>
-                Job: <b>Commercialm adviser</b>
-                <br>
-                When/where: March 2018 - August 2019/Modica (RG)
-                <br>
-                Task: Selling of natural health and body care products.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: Eufonica
-                <br>
-                Job: <b>Teacher</b>
-                <br>
-                When/where: March 2016 - May 2016/Ragusa
-                <br>
-                Task: Sound design teacher (MIDI protocol, sound synthesis and sampling).
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: Sonoria Studio Rec
-                <br>
-                Job: <b>Sound engineer/studio assistant</b>
-                <br>
-                When/where: April 2015 - September 2015/Scordia (CT)
-                <br>
-                Task: Assistant for recording and mixing songs.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: Eufonica
-                <br>
-                Job: <b>Tutor</b>
-                <br>
-                When/where: February 2015 - March 2015/Ragusa
-                <br>
-                Task: Tutor for sound engineer and electronic music production courses.
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: Zion Beach
-                <br>
-                Job: <b>Dj</b>
-                <br>
-                When/where: 2007 - 2012/Torvaianica (Rm)
-                <br>
-                </p>
-            </li>
-            <li>
-                <p>
-                Employer: Scrix Srl
-                <br>
-                Job: <b>Sound assistant</b>
-                <br>
-                When/where: June 2008/Ostia (Rm)
-                <br>
-                </p>
-            </li>
-        </ul>
-    </div>
-    <div id="skills">
-        <h2>Skills</h2>
-        Mastery of informatics tools and computer usage, in particular: HTML and CSS programming languages,  Virtual Studio Code programming software, Office Suite, Web navigating, software and hardware for audio and partially for graphics. In 2018 I attempted a remote specialization course on cyber security, powered by Istituto Volta, called "Ethical Hacker & Deep Web", though without taking the final exam to obtain the certificate.  I am currently attending the remote specialization course called "The Complete 2023 Web Development Bootcamp", on the Udemy platform; I am currently able to create and manage a "basic" website, using HTML and CSS languages.
-        <br>
-        <br>
-        Good knowledge of the practices and tools used in the stages of music pre-production, production and post-production. More than good knowledge of numerous software and hardware for music production and programming (Cubase, Pro Tools, Ableton Live, Melodyne; N.I. Maschine; D.S. Prophet 12; other). Good knowledge of the principles and techniques of sound synthesis. Good knowledge of the MIDI protocol. Ten-year experience in composing electronic music, original songs and remixes. In 2009 I self-produced an album, dealing autonomously with composition and arrangements, sampling, programming, sound design, voice and instrument recording. I have a good background in music theory and have studied piano privately. As a studio assistant I was able to relate to a large number of professional musicians and to actively participate in the various stages of musical creation, providing logistical/technical support and making my knowledge available.
-        <br>
-        <br>
-        Thanks to the autonomous activity of holiday homes manager, I have developed excellent relationship skills with tourists, dealing with communication (often in english), reception, hospitality. I also dealt with the management of the websites for the publication of the apartments (Air Bnb, Booking, Vrbo).
-        <br>
-        <br>
-        The activity of commercial adviser led me to relate daily with the most diverse types of people. This requires me to take great care of appearance and language, learn to get in tune with customers, know how to present and sell the products and devices handled by the company.
-        <br>
-        <br>
-        Independent experiences of gardening, cultivation and care of plants, annual harvest of olives and carobs.
-    </div>
-    <div id="other">
-        <h2>Other</h2>
-        First language: Italian
-        <br>
-        <br>
-        Other languages: English
-        <br>
-        - Reading skills: excellent
-        <br>
-        - Writing skills: excellent
-        <br>
-        - Oral expression skills: excellent
-        <br>
-        <br>
-        Driver's license: B
-        <br>
-        <br>
-        Other certificates: Certificate class of job security, medium risk.
-    </div>
-</p>
-<hr>
-    <div id="sections">
-        <a href="./public/music production.html">Music production</a>
-        <a href="./public/holiday house management.html">Holiday house management</a>
-        <a href="./public/hobbies and interests.html">Hobbies and interests</a>
-        <a href="./public/contact.html">Contact</a>
-    </div>
-    <br>
-    <br>
-    <footer>
-        <small>
-            Copyright © 2023 Paolo Cocuzza. All Rights Reserved.
-        </small>
-    </footer>
 </body>
 </html>
